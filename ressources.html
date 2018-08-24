@@ -2,11 +2,20 @@
 <html>
 
 <head>
-  <title>shadowplay_2 - another page</title>
+  <title>Prostar</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 </head>
 
 <body>
@@ -15,22 +24,41 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">shadow<span class="logo_colour">play_2</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+          <h1><img src="LogoProstarComplet.png" width="50px" padding-right="100px" alt="example graphic" /><a href="index.html">Prostar</span></a></h1>
+          <h2>Proteomics tool for statistical analysis with R.</h2>
         </div>
-      </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li><a href="index.html">Home</a></li>
-          <li><a href="examples.html">Examples</a></li>
-          <li><a href="page.html">A Page</a></li>
-          <li class="selected"><a href="another_page.html">Another Page</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+    </div>
+    </div>
+    <!-- Navbar -->
+
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Home">Home<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="presentation.html" class="w3-bar-item w3-button">Presentation</a>
+        <a href="releaseNotes.html" class="w3-bar-item w3-button">Release notes</a>
       </div>
     </div>
-    <div id="content_header"></div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Prostar">Prostar<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="install.html" class="w3-bar-item w3-button">Install</a>
+        <a href="http://prostar-proteomics.org" target="_blank" class="w3-bar-item w3-button">Online demo</a>
+      </div>
+    </div>
+    <a href="ressources.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Ressources</a>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Contacts">Contacts<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="team.html" class="w3-bar-item w3-button">Team presentation</a>
+        <a href="bugReport.html" class="w3-bar-item w3-button">Bug reports</a>
+        <a href="forum.html" class="w3-bar-item w3-button">Forum</a>
+      </div>
+    </div>
+  </div>
+<div id="content_header"></div>
     <div id="site_content">
      
       <div id="content">
