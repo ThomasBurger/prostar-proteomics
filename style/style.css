@@ -1,10 +1,10 @@
-html{height: 100%; width: 100%;}
+html{height: 100%;}
 
 body
 { font-family: "lucida sans", arial, sans-serif;
   padding: 0px;
   margin: 0px;
-  font-size: 15px;
+  font-size: .78em;
   background: #F6F4F0;
   color: #635B53;}
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4
   font-family: serif;}
 
 h1, h3
-{ text-transform: none;
+{ text-transform: uppercase;
   margin: 10px 0px 20px 0px;
   padding: 5px 20px 5px 0px;
   border-bottom: 1px solid #CCC6B4;}
@@ -92,7 +92,7 @@ ol li
 { background: url(logoBlue.png) repeat-x;}
 
 #logo
-{ width: 870px;
+{ width: 100%;
   height: 127px;
   position: relative;
   background: transparent url(logoBlue.png) no-repeat right;}
@@ -169,6 +169,7 @@ ul#menu li a
   padding: 9px 22px 5px 16px;
   text-align: center;
   color: #FFF;
+  text-transform: none;
   border: none;} 
 
 ul#menu li.selected a
@@ -233,6 +234,7 @@ ul#menu li a:hover
   background: #313131;
   color: #A8AA94;
   border-top: 4px solid #00AFCE;
+  text-transform: none;
   letter-spacing: 0.1em;}
 
 #footer a
