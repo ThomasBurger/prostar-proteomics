@@ -11,27 +11,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-body {
-  font-family: "Lato", sans-serif;
-}
-
-.mySlides {
-  display: none;
-}
-
-#p {
-  font-size: medium;
-}
-
-strong {
-  font-size: medium;
-}
-
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
 </style>
   </head>
   <body>
     <div id="main">
-      <div id="content" class="checkbox">
+      <div id="header">
         <div id="logo">
           <div id="logo_text">
             <!-- class="logo_colour", allows you to change the colour of the text -->
@@ -76,16 +62,16 @@ async="async">
           <div class="w3-row">
             <div class="w3-col m6 l6">
               <h2>Overview</h2>
-              <p style="width: 819px;" id="p">DAPAR and ProStaR form a software
-                suite for quantitative analysis of mass spectrometry based
-                proteomics. More specifically it is designed to process relative
+              <p style="width: 819px;">DAPAR and ProStaR form a software suite
+                for quantitative analysis of mass spectrometry based proteomics.
+                More specifically it is designed to process relative
                 quantitative data from discovery experiments. It is composed of
                 two distinct R packages :</p>
               <h2>Data processing</h2>
               <ul style="width: 766px;">
-                <li style="width: 814px;"><strong id="li">Filtering</strong>
-                  options allows pruning the protein or peptide list according
-                  to various criteria (missing values, contaminants, reverse
+                <li style="width: 814px;"><strong>Filtering</strong> options
+                  allows pruning the protein or peptide list according to
+                  various criteria (missing values, contaminants, reverse
                   sequences);</li>
                 <li><strong>Cross replicate normalization</strong>, so as to
                   make the quantitative values comparable between the different
