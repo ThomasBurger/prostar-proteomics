@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Prostar</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><img src="LogoProstarComplet.png" width="50px" padding-right="100px" alt="example graphic" /><a href="index.html">Prostar</span></a></h1>
+          <h2>Proteomics tool for statistical analysis with R.</h2>
+        </div>
+    </div>
+    </div>
+    <!-- Navbar -->
+
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Home">Home<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index.html" class="w3-bar-item w3-button">Presentation</a>
+        <a href="releaseNotes.html" class="w3-bar-item w3-button">Release notes</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Prostar">Prostar<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="install.html" class="w3-bar-item w3-button">Install</a>
+        <a href="http://prostar-proteomics.org" target="_blank" class="w3-bar-item w3-button">Online demo</a>
+      </div>
+    </div>
+    <a href="ressources.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Ressources</a>
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Contacts">Contacts<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="team.html" class="w3-bar-item w3-button">Team presentation</a>
+        <a href="bugReport.html" class="w3-bar-item w3-button">Bug reports</a>
+      </div>
+    </div>
+  </div>
+<div id="content_header"></div>
+    <div id="site_content">
+     
+      <div id="content">
+        <!-- insert the page content here -->
+        <div id="References2" class="shiny-html-output shiny-bound-output"><br>
+<h4>
+  <b>User manuals and tutorials:</b>
+</h4>
+<ul>
+  <li>
+    <a href="https://www.bioconductor.org/packages/release/bioc/vignettes/Prostar/inst/doc/Prostar_UserManual.pdf?attredirects=0" target="_blank">ProStaR user manual</a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/Prostar_Tutorial.pdf?attredirects=0" target="_blank">ProStaR Tutorial</a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/tutorial-CP4P-4.pdf?attredirects=0" target="_blank">CP4P Tutorial</a>
+  </li>
+</ul>
+<br>
+<h4>
+  
+<h4>
+  <b>References:</b>
+</h4>
+<ol>
+  <h4>
+    <b>Our referenced works:</b>
+  </h4>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/calib-final.pdf?attredirects=0" target="_blank">
+      <p>
+        Q. Giai Gianetto, F. Combes, C. Ramus, C. Bruley, Y. Coute and 
+  T. Burger. Calibration Plot for Proteomics (cp4p): A graphical tool 
+                to visually check the assumptions underlying FDR control in 
+                quantitative experiments.
+        <i>Proteomics</i>
+        , 16(1):29-32, 2016.
+      </p>
+    </a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/natureOfMV-Vsubmited2.pdf?attredirects=0" target="_blank">
+      <p>
+        C. Lazar, L. Gatto, M. Ferro, C. Bruley, T. Burger. Accounting 
+  for the multiple natures of missing values in label-free quantitative 
+                proteomics datasets to compare imputation strategies.
+        <i>Journal of 
+                Proteome Research</i>
+        , 15(4):1116-1125, 2016.
+      </p>
+    </a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/OnTheMissuseOfFudgeFactorInProteomics_FV.pdf?attredirects=0" target="_blank">
+      <p>
+        Q. Giai Gianetto, Y. Coute, C. Bruley and T. Burger. Uses and 
+  misuses of the fudge factor in quantitative discovery proteomics.
+        <i>Proteomics</i>
+        , 16(14):1955-60, 2016.
+      </p>
+    </a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/prostar.pdf?attredirects=0" target="_blank">
+      <p>
+        S. Wieczorek, F. Combes, C. Lazar, Q. Giai-Gianetto, L. Gatto, 
+  A. Dorffer, A.-M. Hesse, Y. Coute, M. Ferro, C. Bruley and T. Burger. 
+                DAPAR &amp; ProStaR: software to perform statistical analyses in 
+                quantitative discovery proteomics,
+        <i>Bioinformatics</i>
+        , 33(1):135-136, 2017
+      </p>
+    </a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/fdrtuto.pdf?attredirects=0" target="_blank">
+      <p>
+        T. Burger. Gentle introduction to the statistical 
+  foundations of false discovery rate in quantitative proteomics.
+        <i>Journal of Proteome Research</i>
+        , 17(1):12-22, 2017.
+      </p>
+    </a>
+  </li>
+  <li>
+    <a href="https://sites.google.com/site/thomasburgerswebpage/download/revised-biostat-proteom-preprint.pdf?attredirects=0" target="_blank"> L. Jacob, F. Combes and T. Burger. PEPA test : fast and powerful differential analysis
+    from relative quantitative proteomics data using shared peptides. (accepted for publication, 2018).</a>
+  </li>
+  <li>
+    <p>Q. Giai Gianetto, C. Lazar, S. Wieczorek, C. Bruley, Y. Coute and 
+    T. Burger. Multiple imputation strategy for mass spectrometry-based 
+                proteomic data. (in preparation).</p>
+  </li>
+  <h4>
+    <b>Other references:</b>
+  </h4>
+  <li>
+    <p>Bolstad BM (2017). preprocessCore: A collection of pre-processing functions. R package version 1.38.1</p>
+    <a href="https://github.com/bmbolstad/preprocessCore" target="_blank">link</a>
+  </li>
+  <li>
+    <p>Hastie T, Tibshirani R, Narasimhan B and Chu G (2017). impute: Imputation for microarray data. R package version 1.50.1</p>
+  </li>
+  <li>
+    <p>
+      Gatto L and Lilley K (2012). 
+    MSnbase - an R/Bioconductor package for isobaric tagged mass spectrometry data visualization, processing and quantitation.
+      <i>Bioinformatics</i>
+      , 28, pp. 288-289.
+    </p>
+  </li>
+  <li>
+    <p>
+      Ritchie ME, Phipson B, Wu D, Hu Y, Law CW, Shi W and Smyth GK (2015). 
+    Limma powers differential expression analyses for RNA-sequencing and microarray studies.
+      <i>Nucleic Acids Research</i>
+      , 43(7), pp. e47.
+    </p>
+  </li>
+</ol></div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+      <p>Copyright &copy; shadowplay_2 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
